@@ -1,11 +1,29 @@
-#clock{
-	height: 100vh;
-	width: 100%;
+body{
+	font-family: chalkboard;
+	font-size: 50px;
+}
+
+.container{
+	padding-top: 305px;
+	padding-bottom: 305px;
 	background-color: pink;
+}
+#clock{
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 40px;
-	font-family: chalkboard;
+	
+	/*background-image: url('image/morning.jpg');*/
 }
+
+#datum{
+	font-size: 35px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+ }
+
+ 

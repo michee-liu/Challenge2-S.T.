@@ -23,6 +23,11 @@ function clock(){
 
 clock();
 
+var today = new Date();
+var maanden = new Array('januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juli', 'augustus', 'september', 'oktober', 'november', 'december');
+document.getElementById('datum').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()] + ' ' + today.getFullYear();
+
+
 
 
 
