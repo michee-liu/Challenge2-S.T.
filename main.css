@@ -1,20 +1,22 @@
 body{
 	font-family: chalkboard;
 	font-size: 50px;
+	background-image: url("image/morning.jpg");
+	background-size: cover;
 }
 
 .container{
 	padding-top: 305px;
 	padding-bottom: 305px;
-	background-color: pink;
+	/*background-color: pink;*/
+	
 }
+
 #clock{
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
-	/*background-image: url('image/morning.jpg');*/
 }
 
 #datum{
@@ -26,4 +28,24 @@ body{
   
  }
 
- 
+/*achtergronden
+.morning{
+ 	background-image: url('image/morning.jpg');
+	background-size: cover;
+}
+.afternoon{
+ 	background-image: url('image/afternoon.jpg');
+	background-size: cover;
+}
+.night{
+ 	background-image: url('image/night.jpg');
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
