@@ -28,20 +28,18 @@ body{
   
  }
 
-/*achtergronden
-.morning{
- 	background-image: url('image/morning.jpg');
-	background-size: cover;
-}
-.afternoon{
- 	background-image: url('image/afternoon.jpg');
-	background-size: cover;
-}
-.night{
- 	background-image: url('image/night.jpg');
-	background-size: cover;
-}
+/*Grid*/
+body{
+  display: grid;
+  grid-template-columns: 1fr;
 
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  main"
+        "sec sec"
+        "foot  foot "; 
+}
 
 
 
