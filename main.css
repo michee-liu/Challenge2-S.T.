@@ -41,6 +41,25 @@ body{
         "foot  foot "; 
 }
 
+/*animatie*/
+#animate {
+	width: 90px;
+	height: 80px;
+	position: absolute;
+	padding-top: 160px;
+	left: 30px;
+	animation: 1000ms pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+  0% { 
+  	top: 95px; 
+  }
+  100% { 
+  	top: 75px;
+  }
+}
+
 /*Ipad Schermgroote*/
 @media screen and (min-width: 768px) {
 body{
@@ -48,10 +67,18 @@ body{
 }
 .container{
 	padding-top: 450px;
-	padding-bottom: 450px;
+	
 }
 #datum{
 	font-size: 40px;
+}
+#animate {
+	width: 120px;
+	height: 110px;
+	position: absolute;
+	padding-top: 300px;
+	left: 80px;
+	animation: 1000ms pulsate infinite alternate ease-in-out;
 }
 }
 
@@ -68,7 +95,16 @@ body{
 #datum{
 	font-size: 120px;
 }
+#animate {
+	width: 330px;
+	height: 320px;
+	position: absolute;
+	padding-top: 500px;
+	padding-left: 1300px;
+	animation: 1000ms pulsate infinite alternate ease-in-out;
 }
+}
+
 
 
 
