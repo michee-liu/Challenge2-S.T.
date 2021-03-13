@@ -40,6 +40,21 @@ body{
         "sec sec"
         "foot  foot "; 
 }
+.header{
+  grid-area: title;
+} 
+
+.main{
+  grid-area: main;
+}
+
+.sec{
+  grid-area: sec;
+}
+
+.foot {
+  grid-area: foot;
+}
 
 /*animatie*/
 #animate {
@@ -60,7 +75,7 @@ body{
   }
 }
 
-/*Ipad Schermgroote*/
+/*Ipad Schermgroote (768 x 1024)*/
 @media screen and (min-width: 768px) {
 body{
 	font-size: 80px;
@@ -83,7 +98,7 @@ body{
 }
 
 
-/*Desktop Schermgroote*/
+/*Desktop Schermgroote (12 inch scherm)*/
 @media screen and (min-width: 1000px) {
 body{
 	font-size: 250px;
