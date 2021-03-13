@@ -40,21 +40,6 @@ body{
         "sec sec"
         "foot  foot "; 
 }
-.header{
-  grid-area: title;
-} 
-
-.main{
-  grid-area: main;
-}
-
-.sec{
-  grid-area: sec;
-}
-
-.foot {
-  grid-area: foot;
-}
 
 /*animatie*/
 #animate {
@@ -98,24 +83,25 @@ body{
 }
 
 
-/*Desktop Schermgroote (12 inch scherm)*/
+/*Desktop Schermgroote (12inch scherm)*/
 @media screen and (min-width: 1000px) {
 body{
-	font-size: 250px;
+	font-size: 80px;
 }
 .container{
-	padding-top: 840px;
-	padding-bottom: 100px;
+	padding-top: 90px;
+	
 }
+
 #datum{
-	font-size: 120px;
+	font-size: 40px;
 }
 #animate {
-	width: 330px;
-	height: 320px;
+	width: 100px;
+	height: 90px;
 	position: absolute;
-	padding-top: 500px;
-	padding-left: 1300px;
+	padding-top: 110px;
+	left: 300px;
 	animation: 1000ms pulsate infinite alternate ease-in-out;
 }
 }
